@@ -3,7 +3,7 @@ module Rumble
     def average(array)
       total = 0
       array.each do |v|
-        total = total + v
+        total += v
       end
 
       total / array.length

@@ -1,6 +1,6 @@
 module Rumble
   class Condition
-    def has_access(number)
+    def access?(number)
       if number < 50
         true
       else

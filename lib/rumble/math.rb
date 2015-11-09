@@ -1,6 +1,5 @@
 module Rumble
   class Math
-
     def add(a, b)
       a + b
     end
